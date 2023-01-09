@@ -1,0 +1,11 @@
+Micro-video
+sh run.sh CLCRec micro-video 256 0.001 0.001 512 0.1 0.7 1 128 0.9 0.1 0.1 0 0.01 log 0
+sh inference.sh CLCRec model [0,0.05,0.1,0.15,0.2] 100 log 0
+
+Amazon:
+sh run.sh CLCRec amazon 256 0.001 0.001 256 0.1 0.5 0.1 128 0.9 0.1 0.2 0 1 log 0
+sh inference.sh CLCRec model [0,0.05,0.1,0.15,0.2] 50 log 0
+
+Kwai:
+sh run.sh CLCRec kwai 512 0.001 0.001 512 0.1 0.3 1 128 0.8 0.7 0.2 0 1 log 0
+sh inference.sh CLCRec model [0,0.05,0.1,0.15,0.2] 10 log 0

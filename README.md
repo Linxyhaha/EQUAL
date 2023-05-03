@@ -1,6 +1,6 @@
 # Equivariant Learning for Out-of-Distribution Cold-start Recommendation
 This is the pytorch implementation of our paper
-> Favor Warm Items? Equivariant Learning for Out-of-Distribution Cold-start Recommendation
+> Equivariant Learning for Out-of-Distribution Cold-start Recommendation
 
 ## Environment
 - Anaconda 3
